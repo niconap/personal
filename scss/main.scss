@@ -6,7 +6,8 @@ $font-stack: Outfit, Helvetica, sans-serif;
 
 // Color palette
 $white: #E8EEF1;
-$lightblue: #43B0F1;
+$lightblue: #6EC4F7;
+$blue: #43B0F1;
 $darkblue: #057DCD;
 $navyblue: #1E3D58;
 
@@ -31,7 +32,7 @@ button:hover {
 }
 
 .p-btn {
-    background-color: $lightblue;
+    background-color: $blue;
     color: white;
     transition: background-color 0.2s ease;
 }
@@ -46,7 +47,7 @@ button:hover {
 
 .s-btn {
     background-color: white;
-    color: $lightblue;
+    color: $blue;
     transition: background-color 0.2s ease;
 }
 
@@ -60,7 +61,7 @@ button:hover {
 }
 
 .link {
-    color: $lightblue;
+    color: $blue;
     transition: color 0.2s ease;
 }
 
@@ -69,11 +70,11 @@ button:hover {
 }
 
 .txt-box {
-    border: 3px solid $lightblue;
+    border: 3px solid $blue;
     border-radius: 10px;
     padding: 10px;
 }
 
 .txt-box::placeholder {
-    color: $lightblue;
+    color: $blue;
 }
