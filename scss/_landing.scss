@@ -5,7 +5,7 @@ $white: #E8EEF1;
 $lightblue: #6EC4F7;
 $blue: #43B0F1;
 $darkblue: #057DCD;
-$navyblue: #1E3D58;
+$navyblue: #316088;
 
 #home {
     background-color: $blue;
@@ -84,6 +84,29 @@ $navyblue: #1E3D58;
     left: 20%;
     top: 10%;
     animation: triangle 21s ease infinite;
+}
+
+@keyframes pentagon {
+    0% {
+        left: 75%;
+        top: 60%;
+    }
+    50% {
+        top: 65%;
+        left: 60%;
+        transform: rotate(-15deg);
+    }
+    100% {
+        left: 75%;
+        top: 60%;
+    }
+}
+
+#pentagon {
+    position: absolute;
+    left: 75%;
+    top: 60%;
+    animation: pentagon 10s ease infinite;
 }
 
 nav {

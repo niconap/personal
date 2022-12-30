@@ -81,6 +81,28 @@
   animation: triangle 21s ease infinite;
 }
 
+@keyframes pentagon {
+  0% {
+    left: 75%;
+    top: 60%;
+  }
+  50% {
+    top: 65%;
+    left: 60%;
+    transform: rotate(-15deg);
+  }
+  100% {
+    left: 75%;
+    top: 60%;
+  }
+}
+#pentagon {
+  position: absolute;
+  left: 75%;
+  top: 60%;
+  animation: pentagon 10s ease infinite;
+}
+
 nav {
   position: fixed;
   text-align: center;
