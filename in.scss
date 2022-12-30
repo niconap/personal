@@ -1,0 +1,79 @@
+@use 'landing';
+@import url(https://fonts.googleapis.com/css?family=Outfit);
+
+// Font stack
+$font-stack: Outfit, Helvetica, sans-serif;
+
+// Color palette
+$white: #E8EEF1;
+$lightblue: #43B0F1;
+$darkblue: #057DCD;
+$navyblue: #1E3D58;
+
+* {
+    outline: none;
+    margin: auto;
+    scroll-behavior: smooth;
+}
+
+body, button {
+  font: 100% $font-stack;
+}
+
+button {
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.p-btn {
+    background-color: $lightblue;
+    color: white;
+    transition: background-color 0.2s ease;
+}
+
+.p-btn:hover {
+    background-color: $darkblue;
+}
+
+.p-btn:active {
+    background-color: $navyblue;
+}
+
+.s-btn {
+    background-color: white;
+    color: $lightblue;
+    transition: background-color 0.2s ease;
+}
+
+.s-btn:hover {
+    background-color: $white;
+}
+
+.s-btn:active {
+    background-color: $darkblue;
+    color: white;
+}
+
+.link {
+    color: $lightblue;
+    transition: color 0.2s ease;
+}
+
+.link:hover {
+    color: $darkblue;
+}
+
+.txt-box {
+    border: 3px solid $lightblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.txt-box::placeholder {
+    color: $lightblue;
+}

@@ -1,0 +1,107 @@
+// This file contains the styling for the landing page
+
+// Color palette
+$white: #E8EEF1;
+$lightblue: #43B0F1;
+$darkblue: #057DCD;
+$navyblue: #1E3D58;
+
+#home {
+    background-color: $lightblue;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    color: white;
+    font-size: 800%;
+}
+
+@keyframes circle {
+    0% {
+        top: 50%;
+    }
+    50% {
+        top: 55%;
+        left: 10%;
+    }
+    100% {
+        top: 50%;
+    }
+}
+
+#circle {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    background-color: $darkblue;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    animation: circle 6s ease infinite;
+}
+
+@keyframes square {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+#square {
+    position: absolute;
+    left: 65%;
+    top: 25%;
+    background-color: $darkblue;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    animation: square 15s linear infinite;
+}
+
+nav {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            margin: 10px 10px;
+            font-size: 130%;
+
+            a {
+                color: white;
+                text-decoration: none;
+                transition: color 0.2s ease;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+// Add blur to nav bar if supported.
+@supports(backdrop-filter: blur(20px)) {
+    nav {
+        background-color: #43b0f180;
+        backdrop-filter: blur(20px);
+    }
+}
+
+@supports not (backdrop-filter: blur(20px)) {
+    nav {
+        background: $lightblue;
+    }
+}
