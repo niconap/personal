@@ -1,0 +1,88 @@
+// This file contains all the styling for the shapes on the landing page
+
+.shape {
+    position: relative;
+}
+
+@keyframes circle {
+    0% {
+        top: 30px;
+    }
+    50% {
+        top: 15%;
+        left: -15%;
+    }
+    100% {
+        top: 30px;
+    }
+}
+
+#circle {
+    left: -30%;
+    top: 30px;
+    animation: circle 6s ease infinite;
+}
+
+@keyframes square {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+#square {
+    left: 35%;
+    top: -700px;
+    animation: square 15s linear infinite;
+}
+
+@keyframes triangle {
+    0% {
+        transform: rotate(-15deg); -ms-transform: rotate(-15deg);
+    }
+    20%{
+        transform: rotate(15deg); -ms-transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-25deg); -ms-transform: rotate(-25deg);
+    }
+    60%{
+        transform: rotate(25deg); -ms-transform: rotate(25deg);
+    }
+    80%{
+        transform: rotate(-10deg); -ms-transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(-15deg); -ms-transform: rotate(-15deg);
+    }
+}
+
+#triangle {
+    left: -30%;
+    top: -1000px;
+    animation: triangle 21s ease infinite;
+}
+
+@keyframes pentagon {
+    0% {
+        left: 30%;
+        top: -600px;
+    }
+    50% {
+        top: -750px;
+        left: 40%;
+        transform: rotate(-15deg);
+    }
+    100% {
+        left: 30%;
+        top: -600px;
+    }
+}
+
+#pentagon {
+    left: 30%;
+    top: -600px;
+    animation: pentagon 10s ease infinite;
+}

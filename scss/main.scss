@@ -21,6 +21,10 @@ body, button {
   font: 100% $font-stack;
 }
 
+#wrapper {
+    overflow: hidden;
+}
+
 button {
     border: none;
     padding: 10px 30px;
