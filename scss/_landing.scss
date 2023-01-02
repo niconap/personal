@@ -26,6 +26,15 @@ $navyblue: #316088;
     width: 100vw;
 }
 
+#subtitle {
+    color: white;
+    font-size: 2.7vh;
+    z-index: 998;
+    position: absolute;
+    top: 55vh;
+    width: 100vw;
+}
+
 nav {
     position: fixed;
     text-align: center;
@@ -51,6 +60,30 @@ nav {
                 text-decoration: underline;
             }
         }
+    }
+}
+
+#icons {
+    position: absolute;
+    top: 62vh;
+    padding: 10px;
+    width: 100vw;
+    z-index: 998;
+
+    a {
+        text-decoration: none;
+    }
+
+    img {
+        display: inline-block;
+        margin: 0 10px;
+        height: 50px;
+        transition: height 0.2s ease;
+    }
+
+    img:hover {
+        cursor: pointer;
+        height: 60px;
     }
 }
 
