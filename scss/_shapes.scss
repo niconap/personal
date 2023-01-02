@@ -94,3 +94,86 @@
     font-size: 6.5vh;
     animation: pentagon 10s ease infinite;
 }
+
+@media screen and (max-width: 300px) {
+    #circle {
+        font-size: 5vh;
+        left: 10%;
+    }
+    #square {
+        font-size: 3vh;
+        left: 60%;
+    }
+    #triangle {
+        font-size: 4vh;
+        top: 15vh;
+        left: 5%;
+    }
+    #pentagon {
+        font-size: 3vh;
+        left: 50%;
+    }
+
+    @keyframes pentagon {
+        0% {
+            left: 55%;
+            top: 60vh;
+        }
+        50% {
+            top: 67vh;
+            left: 63%;
+            transform: rotate(-15deg);
+        }
+        100% {
+            left: 55%;
+            top: 60vh;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 301px) {
+    #circle {
+        font-size: 6vh;
+        left: 10%;
+    }
+    #square {
+        font-size: 3.6vh;
+        left: 60%;
+    }
+    #triangle {
+        font-size: 5vh;
+        left: 5%;
+    }
+    #pentagon {
+        font-size: 3.5vh;
+        left: 50%;
+    }
+
+    @keyframes pentagon {
+        0% {
+            left: 55%;
+            top: 60vh;
+        }
+        50% {
+            top: 67vh;
+            left: 63%;
+            transform: rotate(-15deg);
+        }
+        100% {
+            left: 55%;
+            top: 60vh;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 769px) {
+    #square {
+        font-size: 4vh;
+        left: 70%;
+    }
+
+    #pentagon {
+        font-size: 4.3vh;
+    }
+
+}
