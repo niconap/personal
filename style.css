@@ -1,24 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Outfit);
 .shape {
-  position: relative;
+  position: absolute;
 }
 
 @keyframes circle {
   0% {
-    top: 60vh;
+    top: 70vh;
   }
   50% {
-    top: 50vh;
-    left: -20%;
+    top: 60vh;
+    left: 5%;
   }
   100% {
-    top: 60vh;
+    top: 70vh;
   }
 }
-
 #circle {
-  left: -30%;
-  top: 60vh;
+  left: 20%;
+  top: 70vh;
+  width: 4em;
+  font-size: 7vh;
   animation: circle 6s ease infinite;
 }
 
@@ -30,10 +31,11 @@
     transform: rotate(360deg);
   }
 }
-
 #square {
-  left: 35%;
-  top: -10vh;
+  left: 75%;
+  top: 20vh;
+  width: 4em;
+  font-size: 7vh;
   animation: square 15s linear infinite;
 }
 
@@ -63,31 +65,34 @@
     -ms-transform: rotate(-15deg);
   }
 }
-
 #triangle {
-  left: -30%;
-  top: -40vh;
+  left: 15%;
+  top: 8vh;
+  width: 4em;
+  font-size: 6vh;
   animation: triangle 21s ease infinite;
 }
 
 @keyframes pentagon {
   0% {
-    left: 30%;
-    top: -10vh;
+    left: 60%;
+    top: 60vh;
   }
   50% {
-    top: -15vh;
-    left: 40%;
+    top: 67vh;
+    left: 70%;
     transform: rotate(-15deg);
   }
   100% {
-    left: 30%;
-    top: -10vh;
+    left: 60%;
+    top: 60vh;
   }
 }
 #pentagon {
-  left: 30%;
-  top: -10vh;
+  left: 60%;
+  top: 60vh;
+  width: 4em;
+  font-size: 6.5vh;
   animation: pentagon 10s ease infinite;
 }
 
@@ -101,7 +106,7 @@
 
 #title {
   color: white;
-  font-size: 800%;
+  font-size: 15vh;
   z-index: 998;
   position: absolute;
   top: 40vh;
@@ -147,6 +152,10 @@ nav ul li a:hover {
   outline: none;
   margin: auto;
   scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 body, button {

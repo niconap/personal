@@ -17,6 +17,10 @@ $navyblue: #1E3D58;
     scroll-behavior: smooth;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 body, button {
   font: 100% $font-stack;
 }
