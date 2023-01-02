@@ -306,6 +306,60 @@ nav ul li a:hover {
     top: 56vh;
   }
 }
+#about {
+  text-align: center;
+  padding: 3em;
+}
+
+#abouttitle {
+  font-size: 5vw;
+  color: #057DCD;
+}
+
+#description {
+  width: 30%;
+  margin-top: 30px;
+  font-size: 1vw;
+}
+
+#skills {
+  width: 60%;
+  margin-top: 50px;
+}
+#skills h2 {
+  font-size: 3vw;
+  color: #057DCD;
+}
+
+#skillset {
+  display: flex;
+  align-items: stretch;
+}
+
+.skillcard {
+  width: 33.3%;
+  padding: 1em;
+  border-radius: 30px;
+  margin: 0 15px;
+}
+
+@supports (backdrop-filter: blur(20px)) {
+  .skillcard {
+    background-color: white;
+    backdrop-filter: blur(20px);
+  }
+}
+@supports not (backdrop-filter: blur(20px)) {
+  .skillcard {
+    background: white;
+    box-shadow: 0 0 10px #7C7C7C;
+  }
+}
+.skilltitle {
+  font-size: 1.5vw;
+  color: #43B0F1;
+}
+
 * {
   outline: none;
   margin: auto;
@@ -380,6 +434,11 @@ button:hover {
 
 .txt-box::placeholder {
   color: #43B0F1;
+}
+
+.underline {
+  text-decoration: underline;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */

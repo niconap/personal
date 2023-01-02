@@ -1,4 +1,5 @@
 @use 'landing';
+@use 'about';
 @import url(https://fonts.googleapis.com/css?family=Outfit);
 
 // Font stack
@@ -85,4 +86,9 @@ button:hover {
 
 .txt-box::placeholder {
     color: $blue;
+}
+
+.underline {
+    text-decoration: underline;
+    font-weight: 700;
 }
