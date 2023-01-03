@@ -1,7 +1,7 @@
 # Personal website / portfolio
 
 This project is a personal website / portfolio. With this project I want to experiment a bit more with CSS and HTML and designing a website in general.
-For this project I chose to use Sass for the first time to make it easier to organize and read my CSS code. 
+For this project I chose to use Sass for the first time to make it easier to organize and read my CSS code.
 
 The website contains a few subsections:
 - Home: this part of the page has moving shapes, my name and a few links to my profiles.
