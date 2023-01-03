@@ -76,3 +76,31 @@ $navyblue: #316088;
     color: $blue;
 }
 
+@keyframes wiggle {
+    0% {
+        transform: rotate(-15deg); -ms-transform: rotate(-15deg);
+    }
+    20%{
+        transform: rotate(15deg); -ms-transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-25deg); -ms-transform: rotate(-25deg);
+    }
+    60%{
+        transform: rotate(25deg); -ms-transform: rotate(25deg);
+    }
+    80%{
+        transform: rotate(-10deg); -ms-transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(-15deg); -ms-transform: rotate(-15deg);
+    }
+}
+
+.skillcard svg {
+    width: 2em;
+    font-size: 3vh;
+    rotate: 25deg;
+    margin-bottom: 10px;
+    animation: wiggle 10s ease infinite;
+}

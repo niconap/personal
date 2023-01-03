@@ -382,6 +382,40 @@ nav ul li a:hover {
   color: #43B0F1;
 }
 
+@keyframes wiggle {
+  0% {
+    transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+  }
+  20% {
+    transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+  }
+  60% {
+    transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+  }
+  80% {
+    transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+  }
+}
+.skillcard svg {
+  width: 2em;
+  font-size: 3vh;
+  rotate: 25deg;
+  margin-bottom: 10px;
+  animation: wiggle 10s ease infinite;
+}
+
 * {
   outline: none;
   margin: auto;
@@ -396,8 +430,11 @@ body, button {
   font: 100% Outfit, Helvetica, sans-serif;
 }
 
-#wrapper {
-  overflow: hidden;
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #43B0F1;
+  color: white;
 }
 
 button {

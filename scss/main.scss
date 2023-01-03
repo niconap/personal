@@ -26,8 +26,11 @@ body, button {
   font: 100% $font-stack;
 }
 
-#wrapper {
-    overflow: hidden;
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: $blue;
+    color: white;
 }
 
 button {
