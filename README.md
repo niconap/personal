@@ -14,3 +14,7 @@ The website contains a few subsections:
 The repository contains a few different directories.
 - `scss` contains all the scss files, these are all processed to form the `style.css` file.
 - `images` contains all the images used, however vector images (svg) are directly implemented into the `index.html` file.
+
+## Ideas
+- Icons for the skill cards.
+- Beautify the about section (it's boring now).
