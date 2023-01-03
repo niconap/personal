@@ -357,6 +357,9 @@ nav ul li a:hover {
 .skillcard p {
   margin-bottom: 10px;
 }
+.skillcard .underline {
+  margin-bottom: 0;
+}
 
 .skillcard:hover, .skillcard:first-child:hover, .skillcard:last-child:hover {
   cursor: default;
@@ -367,13 +370,13 @@ nav ul li a:hover {
 }
 
 .skillcard:first-child {
-  border-right: 1px solid #E8EEF1;
+  border-right: 2px solid #E8EEF1;
   border-radius: 30px 0 0 30px;
 }
 
 .skillcard:last-child {
   border-radius: 0 30px 30px 0;
-  border-left: 1px solid #E8EEF1;
+  border-left: 2px solid #E8EEF1;
 }
 
 .skilltitle {
