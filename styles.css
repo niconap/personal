@@ -180,7 +180,7 @@
 }
 
 #title {
-  color: white;
+  color: #FFFFFF;
   font-size: 15vh;
   z-index: 998;
   position: absolute;
@@ -189,7 +189,7 @@
 }
 
 #subtitle {
-  color: white;
+  color: #FFFFFF;
   font-size: 2.7vh;
   z-index: 998;
   position: absolute;
@@ -213,7 +213,7 @@ nav ul li {
   font-size: 130%;
 }
 nav ul li a {
-  color: white;
+  color: #FFFFFF;
   text-decoration: none;
   transition: color 0.2s ease;
 }
@@ -346,7 +346,7 @@ nav ul li a:hover {
   padding: 1.5em;
   min-height: 100%;
   margin: 0;
-  background-color: white;
+  background-color: #FFFFFF;
   transition: all 0.2s ease;
 }
 .skillcard p {
@@ -417,10 +417,11 @@ nav ul li a:hover {
 #projects {
   background-color: #43B0F1;
   text-align: center;
-  color: white;
+  color: #FFFFFF;
+  padding: 3em;
 }
 #projects .link {
-  color: white;
+  color: #FFFFFF;
 }
 
 #projecttitle {
@@ -434,14 +435,22 @@ nav ul li a:hover {
 }
 
 .project {
-  background-color: white;
-  color: black;
+  background-color: #FFFFFF;
+  color: #1C1C1C;
   width: calc(33.3333333333% - 4.5em);
-  padding: 1.5em;
+  padding: 1.5em 1.5em 8em 1.5em;
   border-radius: 30px;
   box-shadow: #316088 0 0 10px;
   margin: 0.75em;
   min-height: 100%;
+  position: relative;
+}
+.project .link {
+  color: #6EC4F7 !important;
+}
+.project .link:hover {
+  text-decoration: underline;
+  color: #057DCD !important;
 }
 .project a {
   text-decoration: none;
@@ -451,10 +460,21 @@ nav ul li a:hover {
   margin-top: 10px;
   width: 90%;
 }
+.project ul {
+  list-style: none;
+  padding: 0;
+}
 .project h3 {
   color: #6EC4F7;
   font-size: 200%;
   margin-bottom: 10px;
+}
+
+.projectbuttons {
+  height: 6em;
+  position: absolute;
+  bottom: 1.5em;
+  width: calc(100% - 3em);
 }
 
 * {
@@ -490,7 +510,7 @@ button:hover {
 
 .p-btn {
   background-color: #43B0F1;
-  color: white;
+  color: #FFFFFF;
   transition: background-color 0.2s ease;
 }
 
@@ -503,7 +523,7 @@ button:hover {
 }
 
 .s-btn {
-  background-color: white;
+  background-color: #FFFFFF;
   color: #43B0F1;
   transition: background-color 0.2s ease;
 }
@@ -514,7 +534,7 @@ button:hover {
 
 .s-btn:active {
   background-color: #057DCD;
-  color: white;
+  color: #FFFFFF;
 }
 
 .link {
