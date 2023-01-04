@@ -46,7 +46,7 @@ button:hover {
 
 .p-btn {
     background-color: $blue;
-    color: white;
+    color: #FFFFFF;
     transition: background-color 0.2s ease;
 }
 
@@ -59,7 +59,7 @@ button:hover {
 }
 
 .s-btn {
-    background-color: white;
+    background-color: #FFFFFF;
     color: $blue;
     transition: background-color 0.2s ease;
 }
@@ -70,7 +70,7 @@ button:hover {
 
 .s-btn:active {
     background-color: $darkblue;
-    color: white;
+    color: #FFFFFF;
 }
 
 .link {
