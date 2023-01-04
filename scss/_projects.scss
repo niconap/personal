@@ -1,0 +1,20 @@
+// Color palette
+$white: #E8EEF1;
+$lightblue: #6EC4F7;
+$blue: #43B0F1;
+$darkblue: #057DCD;
+$navyblue: #316088;
+
+#projects {
+    background-color: $blue;
+    text-align: center;
+    color: white;
+
+    .link {
+        color: white;
+    }
+}
+
+#projecttitle {
+    font-size: 5vw;
+}

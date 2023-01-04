@@ -325,12 +325,6 @@ nav ul li a:hover {
   color: #057DCD;
 }
 
-#description {
-  width: 30%;
-  margin-top: 30px;
-  font-size: 1vw;
-}
-
 #skills {
   width: 60%;
   margin-top: 50px;
@@ -420,6 +414,19 @@ nav ul li a:hover {
   animation: wiggle 10s ease infinite;
 }
 
+#projects {
+  background-color: #43B0F1;
+  text-align: center;
+  color: white;
+}
+#projects .link {
+  color: white;
+}
+
+#projecttitle {
+  font-size: 5vw;
+}
+
 * {
   outline: none;
   margin: auto;
@@ -503,6 +510,12 @@ button:hover {
   text-decoration: underline;
   font-weight: 700;
   color: #43B0F1;
+}
+
+.description {
+  width: 30%;
+  margin-top: 30px;
+  font-size: 1vw;
 }
 
 /*# sourceMappingURL=style.css.map */

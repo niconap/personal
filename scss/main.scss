@@ -1,5 +1,6 @@
 @use 'landing';
 @use 'about';
+@use 'projects';
 @import url(https://fonts.googleapis.com/css?family=Outfit);
 
 // Font stack
@@ -95,4 +96,10 @@ button:hover {
     text-decoration: underline;
     font-weight: 700;
     color: $blue;
+}
+
+.description {
+    width: 30%;
+    margin-top: 30px;
+    font-size: 1vw;
 }
