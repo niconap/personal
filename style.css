@@ -317,6 +317,7 @@ nav ul li a:hover {
 #about {
   text-align: center;
   padding: 3em;
+  background: linear-gradient(360deg, #43B0F1, #43B0F1 25%, transparent 25%, transparent 100%);
 }
 
 #abouttitle {
@@ -343,7 +344,7 @@ nav ul li a:hover {
   display: flex;
   border-radius: 30px;
   margin-top: 20px;
-  box-shadow: 0 0 10px #E8EEF1;
+  box-shadow: 0 0 10px #316088;
 }
 
 .skillcard {
@@ -364,7 +365,7 @@ nav ul li a:hover {
 .skillcard:hover, .skillcard:first-child:hover, .skillcard:last-child:hover {
   cursor: default;
   transform: scale(1.2);
-  box-shadow: 0 0 10px #E8EEF1;
+  box-shadow: 0 0 10px #316088;
   border: none;
   border-radius: 30px 30px 30px 30px;
 }

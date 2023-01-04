@@ -9,6 +9,7 @@ $navyblue: #316088;
 #about {
     text-align: center;
     padding: 3em;
+    background: linear-gradient(360deg, $blue, $blue 25%, transparent 25%, transparent 100%);
 }
 
 #abouttitle {
@@ -36,7 +37,7 @@ $navyblue: #316088;
     display: flex;
     border-radius: 30px;
     margin-top: 20px;
-    box-shadow: 0 0 10px $white;
+    box-shadow: 0 0 10px $navyblue;
 }
 
 .skillcard {
@@ -59,7 +60,7 @@ $navyblue: #316088;
 .skillcard:hover, .skillcard:first-child:hover, .skillcard:last-child:hover {
     cursor: default;
     transform: scale(1.2);
-    box-shadow: 0 0 10px $white;
+    box-shadow: 0 0 10px $navyblue;
     border: none;
     border-radius: 30px 30px 30px 30px;
 }
