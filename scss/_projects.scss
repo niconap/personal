@@ -18,3 +18,36 @@ $navyblue: #316088;
 #projecttitle {
     font-size: 5vw;
 }
+
+#projectlist {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 15% 0px 15%;
+}
+
+.project {
+    background-color: white;
+    color: black;
+    width: calc(100% / 3 - 4.5em);
+    padding: 1.5em;
+    border-radius: 30px;
+    box-shadow: $navyblue 0 0 10px;
+    margin: 0.75em;
+    min-height: 100%;
+
+    a {
+        text-decoration: none;
+    }
+
+    button {
+        display: block;
+        margin-top: 10px;
+        width: 90%;
+    }
+
+    h3 {
+        color: $lightblue;
+        font-size: 200%;
+        margin-bottom: 10px;
+    }
+}
