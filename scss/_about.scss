@@ -14,7 +14,7 @@ $navyblue: #316088;
 }
 
 #abouttitle {
-    font-size: 5vw;
+    font-size: 10vh;
     color: $darkblue;
 }
 
@@ -23,7 +23,7 @@ $navyblue: #316088;
     margin-top: 50px;
 
     h2 {
-        font-size: 3vw;
+        font-size: 8vh;
         color: $darkblue;
     }
 }
@@ -33,6 +33,7 @@ $navyblue: #316088;
     border-radius: 30px;
     margin-top: 20px;
     box-shadow: 0 0 10px $navyblue;
+    overflow: hidden;
 }
 
 .skillcard {
@@ -103,4 +104,47 @@ $navyblue: #316088;
     rotate: 25deg;
     margin-bottom: 10px;
     animation: wiggle 10s ease infinite;
+}
+
+@media screen and (max-width: 300px) {
+    #about {
+        padding: 1.5em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #skills {
+        width: 100%;
+    }
+
+    #skillset {
+        flex-direction: column;
+        background-color: #FFFFFF;
+    }
+
+    .skillcard {
+        border-right: none !important;
+        border-left: none !important;
+        border-bottom: 2px solid $white;
+        border-radius: 0px !important;
+        margin: auto;
+        width: 80%;
+    }
+
+    .skillcard:last-child {
+        border-bottom: none;
+    }
+
+    .skillcard:hover {
+        transform: none !important;
+        box-shadow: none !important;
+        border-bottom: 2px solid $white !important;
+        border-radius: 0px;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 701px) {
+    #skills {
+        width: 90%;
+    }
 }

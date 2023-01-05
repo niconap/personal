@@ -20,6 +20,10 @@ $navyblue: #1E3D58;
     scroll-behavior: smooth;
 }
 
+*::selection {
+    background-color: #b2e0ff;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -100,7 +104,13 @@ button:hover {
 }
 
 .description {
-    width: 30%;
+    width: 60%;
     margin-top: 30px;
-    font-size: 1vw;
+}
+
+
+@media screen and (max-width: 500px) {
+    .description {
+        width: 100%;
+    }
 }

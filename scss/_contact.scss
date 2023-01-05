@@ -14,6 +14,13 @@ $navyblue: #316088;
 }
 
 #contacttitle {
-    font-size: 5vw;
+    font-size: 10vh;
+    margin-bottom: 30px;
     color: $darkblue;
+}
+
+@media screen and (max-width: 300px) {
+    #contact {
+        padding: 1.5em;
+    }
 }
