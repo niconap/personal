@@ -1,0 +1,19 @@
+// This file contains all the styling for the contact section.
+
+// Color palette
+$white: #E8EEF1;
+$lightblue: #6EC4F7;
+$blue: #43B0F1;
+$darkblue: #057DCD;
+$navyblue: #316088;
+
+#contact {
+    text-align: center;
+    padding: 3em;
+    color: #1C1C1C;
+}
+
+#contacttitle {
+    font-size: 5vw;
+    color: $darkblue;
+}
