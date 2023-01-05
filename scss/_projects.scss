@@ -38,6 +38,7 @@ $navyblue: #316088;
     margin: 0.75em;
     min-height: 100%;
     position: relative;
+    z-index: 1;
 
     .link {
         color: $lightblue !important;
