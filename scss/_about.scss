@@ -33,7 +33,6 @@ $navyblue: #316088;
     border-radius: 30px;
     margin-top: 20px;
     box-shadow: 0 0 10px $navyblue;
-    overflow: hidden;
 }
 
 .skillcard {
@@ -120,6 +119,7 @@ $navyblue: #316088;
     #skillset {
         flex-direction: column;
         background-color: #FFFFFF;
+        overflow: hidden !important;
     }
 
     .skillcard {

@@ -295,11 +295,10 @@ nav ul li a:hover {
 }
 @media screen and (max-width: 900px) and (min-width: 769px) {
   #subtitle {
-    font-size: 2vh;
-    top: 50vh;
+    font-size: 3vh;
   }
   #icons {
-    top: 53vh;
+    top: 57vh;
   }
 }
 @media screen and (max-width: 1200px) and (min-width: 901px) {
@@ -340,7 +339,6 @@ nav ul li a:hover {
   border-radius: 30px;
   margin-top: 20px;
   box-shadow: 0 0 10px #316088;
-  overflow: hidden;
 }
 
 .skillcard {
@@ -428,6 +426,7 @@ nav ul li a:hover {
   #skillset {
     flex-direction: column;
     background-color: #FFFFFF;
+    overflow: hidden !important;
   }
   .skillcard {
     border-right: none !important;
