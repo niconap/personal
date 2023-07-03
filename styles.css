@@ -254,6 +254,7 @@ nav ul li a:hover {
   nav {
     background-color: rgba(67, 176, 241, 0.5019607843);
     backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
   }
 }
 @supports not (backdrop-filter: blur(20px)) {
