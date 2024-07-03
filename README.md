@@ -1,6 +1,6 @@
-# Personal website / portfolio
+# Personal website / portfolio (old)
 
-The live version of my website can be found [here](https://niconap.dev).
+The live version of this portfolio can be found [here](https://old.niconap.dev). The newer portfolio can be found [here](https://niconap.dev) and the repository for that one [here](https://github.com/niconap/portfolio-dynamic).
 
 This project is a personal website / portfolio. With this project I want to experiment a bit more with CSS and HTML and designing a website in general.
 For this project I chose to use Sass for the first time to make it easier to organize and read my CSS code.
